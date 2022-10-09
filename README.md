@@ -20,8 +20,16 @@ make cdc
 ```
 
 ##### Making the Charts
--Something that came up: Needed to install imageio with:
 
+
+
+
+
+
+##### Something that came up:
+    -Needed to install imageio with:
 ```
-pip install imageio
+  pip install imageio
 ```
+    -For some reason needed to use a vpn to git push even with the .gitignore. Saw this tip on stack overflow.
+  
