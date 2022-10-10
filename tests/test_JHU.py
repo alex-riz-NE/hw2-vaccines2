@@ -11,8 +11,10 @@ class TestJHUData(unittest.TestCase):
                       'deaths-05-01-2021-to-09-30-2021.csv',
                       'deaths-05-01-2021-to-07-31-2021.csv',
                       'deaths-05-01-2021-to-08-31-2021.csv',
-                      'deaths-05-01-2021-to-11-30-2021.csv']
-
+                      'deaths-05-01-2021-to-11-30-2021.csv',
+                      'deaths-05-01-2021-to-08-31-2022.csv' 
+                      ]
+### Add this 
     def test_files(self):
         """
         Checking for local CSVs with in directory data/JHU

@@ -54,8 +54,11 @@ def scatter(month):
         ax.scatter([], [], s = plot_scl*area_scl, c = "gray", alpha = 0.5, label = str(area_scl) + 'M')
     ax.legend(loc = (1.05, 0.3), title="Population (Millions)", labelspacing = 1.5, borderpad = 1)
 
-    plt.tight_layout()    
-    plt.savefig('img/'+month+'.png')
+    plt.tight_layout() 
+    if(month[6:]=='2022'):
+    	plt.savefig('img/B'+month+'.png')
+    else:
+    	plt.savefig('img/'+month+'.png')
 
 def create_scatters():
     """This function creates seven scatter plots based on the merged data.
@@ -67,10 +70,11 @@ def create_scatters():
         "08-31-2021",
         "09-30-2021",
         "10-31-2021",
-        "11-30-2021"
+        "11-30-2021",
+        "08-31-2022" ### Add this to add the date August 31st to annimation
     ]
     for date in dates:
-        # print(date)
+        print(date)
         scatter(date)
 
 if __name__ == "__main__":

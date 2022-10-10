@@ -21,7 +21,8 @@ def comparison(FIPS_1='44003', FIPS_2='01125'):
         'August':'08-31-2021',
         'September':'09-30-2021',
         'October':'10-31-2021',
-        'November':'11-30-2021'
+        'November':'11-30-2021',
+        'August':'08-31-2022'
         }
     file_list = []
     for month, csv_date in months.items():

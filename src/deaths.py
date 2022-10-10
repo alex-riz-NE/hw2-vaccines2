@@ -100,7 +100,8 @@ def create_death_number_JHU():
         "08-31-2021",
         "09-30-2021",
         "10-31-2021",
-        "11-30-2021"
+        "11-30-2021",
+        "08-31-2022" ### Add this to add the date August 31st to annimation
     ]
     for end in ends:
         get_death_number_JHU(start, end)

@@ -11,7 +11,8 @@ class TestMergeData(unittest.TestCase):
                       'vaccinations-and-deaths-06-30-2021.csv',
                       'vaccinations-and-deaths-10-31-2021.csv',
                       'vaccinations-and-deaths-05-31-2021.csv',
-                      'vaccinations-and-deaths-09-30-2021.csv']
+                      'vaccinations-and-deaths-09-30-2021.csv',
+                      'vaccinations-and-deaths-08-31-2022.csv']
 
     def test_files(self):
         """

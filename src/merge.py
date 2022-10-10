@@ -39,7 +39,8 @@ def create_merge_data():
         "08-31-2021",
         "09-30-2021",
         "10-31-2021",
-        "11-30-2021"
+        "11-30-2021",
+        "08-31-2022" ### Add this to add the date August 31st to annimation
     ]
     for date in dates:
         write_merge_data_to_csv(date)

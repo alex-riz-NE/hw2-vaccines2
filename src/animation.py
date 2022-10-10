@@ -21,7 +21,7 @@ def create_gif(filename_save):
             f = os.path.join('img',filename)
             im = iio.imread(f)
             images.append(im)
-
+#     	print(filename)
     #making the gif from the pngs
     iio.mimsave(filename_save,images,duration = 1)
 

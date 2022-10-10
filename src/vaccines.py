@@ -41,7 +41,9 @@ def create_vaccines():
         "08-31-2021",
         "09-30-2021",
         "10-31-2021",
-        "11-30-2021"
+        "11-30-2021",
+        "08-31-2022" #### Need to add this to add the August 31st img#####
+    
     ]
     for date in dates:
         vaccines(date)
