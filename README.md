@@ -11,17 +11,23 @@ cd hw2-vaccines2
 ```
 
 
-### Reproducibility
+### Download data
 
 Download the data from from the CDC with the following command 
 
 ```
-make cdc
+make data ## makes the data directory
+make cdc ## downloads the data
 ```
 
-##### Making the Charts
+##### Create or refresh csv 
 
+```
+make vaccines # add ,"08-31-2022" to line 44 as seen by the comment in my code.
+make death # add ,"08-31-2022" to line 104 as seen by the comment in my code.
+make merge # add ,"08-31-2022" to line 43 as seen by the comment in my code.
 
+```
 
 
 
