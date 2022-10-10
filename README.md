@@ -56,10 +56,7 @@ If you did everything right it should look like this
 
 ![](img/animation.gif)
 
-and 
 
-## County View
-![](img/comparison.png)
 
 
 
