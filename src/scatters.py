@@ -55,7 +55,7 @@ def scatter(month):
     ax.legend(loc = (1.05, 0.3), title="Population (Millions)", labelspacing = 1.5, borderpad = 1)
 
     plt.tight_layout() 
-    if(month[6:]=='2022'):
+    if(month[6:]=='2022'): ### add this to make sure that the animation goes in order. 
     	plt.savefig('img/B'+month+'.png')
     else:
     	plt.savefig('img/'+month+'.png')
