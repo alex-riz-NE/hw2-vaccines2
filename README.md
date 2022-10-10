@@ -54,6 +54,9 @@ make animation
 ### Results
 If you did everything right it should look like this
 
+![](img/animation.gif)
+
+
 #### Cleaning
 Use the following code to clean your repository
 ```
